@@ -1,14 +1,9 @@
-import com.sun.codemodel.JForEach;
 import io.restassured.path.json.JsonPath;
 import io.restassured.response.Response;
-import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
-
 import java.util.List;
-import java.util.function.BooleanSupplier;
-import java.util.function.Consumer;
 import java.util.stream.Collectors;
-import java.util.stream.Stream;
+
 
 import static io.restassured.RestAssured.given;
 import static org.junit.jupiter.api.Assertions.*;
